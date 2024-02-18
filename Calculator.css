@@ -1,0 +1,90 @@
+.body {
+    margin: auto;
+    margin-top: 10%;
+    border: 2px grey solid;
+    width: 400px;
+    padding: 50px;
+    padding-left: 40px;
+    background: white;
+    border-radius: 8px;
+}
+
+input {
+    width: 410px;
+    height: 60px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid #dadce0;
+    direction: rtl;
+    font-size: 30px;
+}
+
+input:hover {
+    width: 410px;
+    height: 60px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid #0a1fe2;
+    direction: rtl;
+    font-size: 30px;
+}
+
+.key {
+    width: 100px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    color: #202124;
+    border: 1px solid #f1f3f4;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: #f1f3f4;
+}
+
+button:hover {
+    width: 100px;
+    height: 30px;
+    color: #202124;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: #f1f3f4;
+}
+
+#op {
+    background-color: #dadce0;
+}
+
+#eq {
+    background-color: #4285f4;
+    color: white;
+    font-size: 25px;
+    border: 2px solid #4285f4;
+}
+
+#eq:hover {
+    background-color: #4285f4;
+    color: white;
+    font-size: 25px;
+    border: 2px solid #0a1fe2;
+}
+
+body {
+    background-color: #f1f3f4;
+}
+
+h4 {
+    margin-top: 50px;
+    margin-bottom: -100px;
+    margin-left: 520px;
+    font-size: 50px;
+}
+
+span {
+    color: #307cf6;
+    font-size: 70px;
+}

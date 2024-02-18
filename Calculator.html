@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculato</title>
+    <link REL="stylesheet" href="Calculator.css">
+    <script src="Calculator.js"></script>
+</head>
+
+<body>
+    <div>
+        <h4><span>C</span>alculator</h4>
+    </div>
+    <div class="body">
+
+        <div id="rusalt">
+            <input type="text" value="" disabled placeholder=" rusalt " id="result">
+        </div>
+        <div class="key">
+            <table>
+
+                <tr>
+                    <td><button id="op" type="button" value="(" onclick="addToResult('(')">(</button></td>
+                    <td><button id="op" type="button" value=")" onclick="addToResult(')')">)</button></td>
+                    <td><button id="op" type="button" value="%" onclick="addToResult('%')">%</button></td>
+                    <td><button id="op" type="button" value="AC" onclick="clearResult()">AC</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" value="7" onclick="addToResult('7')">7</button></td>
+                    <td><button type="button" value="8" onclick="addToResult('8')">8</button></td>
+                    <td><button type="button" value="9" onclick="addToResult('9')">9</button></td>
+                    <td><button id="op" type="button" value="÷" onclick="addToResult('/')">÷</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" value="4" onclick="addToResult('4')">4</button></td>
+                    <td><button type="button" value="5" onclick="addToResult('5')">5</button></td>
+                    <td><button type="button" value="6" onclick="addToResult('6')">6</button></td>
+                    <td><button id="op" type="button" value="×" onclick="addToResult('*')">×</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" value="√ " onclick="addToResult('1')">1</button></td>
+                    <td><button type="button" value="2" onclick="addToResult('2')">2</button></td>
+                    <td><button type="button" value="3" onclick="addToResult('3')">3</button></td>
+                    <td><button id="op" type="button" value="-" onclick="addToResult('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" value="0" onclick="addToResult('0')">0</button></td>
+                    <td><button type="button" value="." onclick="addToResult('.')">.</button></td>
+                    <td><button id="eq" type="button" value="=" onclick="calculate()">=</button></td>
+                    <td><button id="op" type="button" value="+" onclick="addToResult('+')">+</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
